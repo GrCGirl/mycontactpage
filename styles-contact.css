@@ -1,0 +1,155 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px auto; /* to adjust seamlessly*/
+ background-image: url("images/sky-bg.jpg"); /*updated image*/
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+	
+}
+
+.container { /*used the container div to center content*/
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	margin: auto;
+}
+
+.center {
+	padding: 0px; 
+	border-radius: 0px 0px 20px 20px; /*Made the bottom rounded*/
+	padding: 25px;
+	width: 1037px; /*played with the width of the center*/
+ 	background: rgb(253, 245, 201); /*Made the color yellow got rid of the 75% opacity*/
+	text-align: left; /* text formatting*/
+
+}
+
+.logo { /*used online resources to adjust the position of the logo in the way that I wanted it to look like*/
+    position: absolute;
+    top: 67px;
+    left: 50%;
+    transform: translateX(-50%); 
+
+}
+
+h1 {/*did not use*/
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: 'Mate', serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #000000;
+}
+
+h2 {/*did not use*/
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	 font-family: "Mate", serif;
+	 font-size: 1.5em;
+	 font-style: normal;
+	 color: #000000;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+		font-family: "Mate", serif; 
+		font-size: 2.5em; /*adjusted the font size*/
+		font-style: normal;
+		margin: auto; /*for line spacing*/
+		color: #000000;
+		line-height: 145%; /*adjusted the line height*/
+}
+nav {
+	font-family: 'mate', regular;
+	font-size: 2.5em; /*adjusted the font size*/
+	text-decoration: none; /*got rid of any styling like an underline or bullet points*/
+	text-align: center;
+	border-radius: 20px 20px 0px 0px; /* Made the bottom corners unrounded*/
+	border-width: 3px 0;
+	padding: 25px; /*added padding*/
+	width: 1037px; /*made the width of the center and nav to be the same for it to look uniform*/
+	height: 75px;
+	background: rgb(255, 216, 140); /*Made the a deeper color yellow got rid of the 75% opacity*/
+	list-style-type: none;
+	overflow: hidden; /*to prevent unwanted horizontal scrolling and extra whitespace in my project*/
+}
+.nav ul { /*used the flex container to space the nav bar nicely*/
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.nav a{
+	display: inline-block;
+	padding: 10px;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+	font-weight: regular; /*made font regular*/
+}
+a:hover{
+	color: black;
+	background: rgb(255, 255, 255);
+	transition: background-color 0.4s ease; /*added a slight transition to make it smoother*/
+}
+
