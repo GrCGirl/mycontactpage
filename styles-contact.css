@@ -113,7 +113,7 @@ h2 {/*did not use*/
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 		font-family: "Mate", serif; 
-		font-size: 2.5em; /*adjusted the font size*/
+		font-size: 2em; /*adjusted the font size*/
 		font-style: normal;
 		margin: auto; /*for line spacing*/
 		color: #000000;
@@ -121,7 +121,7 @@ p {
 }
 nav {
 	font-family: 'mate', regular;
-	font-size: 2.5em; /*adjusted the font size*/
+	font-size: 2em; /*adjusted the font size*/
 	text-decoration: none; /*got rid of any styling like an underline or bullet points*/
 	text-align: center;
 	border-radius: 20px 20px 0px 0px; /* Made the bottom corners unrounded*/
