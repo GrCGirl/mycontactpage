@@ -81,7 +81,7 @@ html, body {
 	padding: 3%;
 	width: 96%; /*played with the width of the center*/
  	background: rgb(253, 245, 201); /*Made the color yellow got rid of the 75% opacity*/
-	text-align: left; /* text formatting*/
+	text-align: center; /* text formatting*/
 
 }
 
@@ -105,23 +105,22 @@ h1 {/*did not use*/
 h2 {/*did not use*/
 	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	 font-family: "Mate", serif;
-	 font-size: 1.5em;
+	 font-size: 2em;
 	 font-style: normal;
 	 color: #000000;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
-		font-family: "Mate", serif; 
-		font-size: 2em; /*adjusted the font size*/
-		font-style: normal;
+		font-family: "Basic Sans"; /* added a sans serif font per critique instruction*/
+		font-size: 1.7em; /*adjusted the font size*/
 		margin: auto; /*for line spacing*/
 		color: #000000;
 		line-height: 145%; /*adjusted the line height*/
 }
 nav {
-	font-family: 'mate', regular;
-	font-size: 2em; /*adjusted the font size*/
+	font-family: 'Basic Sans'; /*added a sans serif font per critique instruction*/
+	font-size: 1.75em; /*adjusted the font size*/
 	text-decoration: none; /*got rid of any styling like an underline or bullet points*/
 	text-align: center;
 	border-radius: 20px 20px 0px 0px; /* Made the bottom corners unrounded*/
@@ -147,7 +146,9 @@ a{
 }
 a:hover{
 	color: black;
-	background: rgb(255, 255, 255);
+	font-weight: bold; /* Change font weight to bold on hover */
+	background: rgb(253, 245, 201); /*changed the background to be friendlier*/
+	border-radius: 20px; /*added rounded corners*/
 	transition: background-color 0.4s ease; /*added a slight transition to make it smoother*/
 }
 
